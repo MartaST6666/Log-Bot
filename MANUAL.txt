@@ -1,0 +1,19 @@
+Settings up:
+1. Make sure EDIT_ME.txt and Log_bot.exe are in the same file!
+2. Install the 64bit version of Tesseract. https://github.com/UB-Mannheim/tesseract/wiki (It is recomended to install it to C:\Program Files\Tesseract-OCR\tesseract.exe path)
+3. Fill in EDIT_ME.txt - insert your name, how often u want bot to scan in seconds (recomended is 30 seconds otherwise the bot is gonna spam when parasaur is detecting), key thats gonna end the program and path to tesseract. Dont insert any spaces! For example if your name is Marta fill in your_name=Marta
+4. Make sure your game resolution is 1920x1080 (fullscreen/windowed/windowed fullscreen is on your choice) - if the bot would run and say "logs closed or disconnected then try changing window mode
+5. Make sure you dont have ANY ini on while running bot!!
+
+!!!IT IS NOT RECOMENDED TO RUN MULTIPLE BOTS AT THE SAME TIME MIGHT LEAD TO UNEXPECTED BEHAVIOR!!!
+
+How bot works:
+1. Bot pings when there is "was killed" "was destroyed" or "your tribe killed" in the latest logs.
+2. Bots discord activity is set to whoever is streaming (thats why u want to fill your name)
+3. Bot pings every (how often it is scanning) seconds when parasaur is detecting enemy
+4. Bot detects when player gets disconencted or logs are closed and sends message. When They are oppened again he sends message that it is running.
+5. Bot say whenever it is started or ended manually.
+
+Make sure u always turn the bot off after finishing log streaming. The bot has looping time complexity [O(n),O(k*m)] which is not a lot but it might lower your fps if you dont have strong hardware.
+
+If you find any bugs please report it to me on discord (marta6666.).

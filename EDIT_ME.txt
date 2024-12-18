@@ -1,0 +1,4 @@
+your_name=Marta
+How_often_should_scan=30
+Ending program button=F10
+PATH_TO_TESSERACT=C:\Program Files\Tesseract-OCR\tesseract.exe
