@@ -1,6 +1,5 @@
 your_name=Marta
-How_often_should_scan=30
-Ending program button=F10
+How_often_should_scan=10
 PATH_TO_TESSERACT=C:\Program Files\Tesseract-OCR\tesseract.exe
 DISCORD_SERVER_NAME=TS Logs
 DISCORD_CHANNEL_NAME=center-logs
